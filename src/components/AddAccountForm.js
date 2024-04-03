@@ -53,7 +53,7 @@ class AddAccountForm extends React.Component {
           )}
 
           <Form.Group controlId="type">
-            <Form.Label><h4>Create Bank Account</h4></Form.Label>
+            <Form.Label><h4>Create EKQi Wallent Account Account</h4></Form.Label>
             <p>Welcome to EKQiBank eWallet Portal as new user, please add your bank details by filling in your details. </p>
           </Form.Group>
 

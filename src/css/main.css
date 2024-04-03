@@ -1,0 +1,496 @@
+/* Define variables */
+:root {
+    --primary-color: #262261;
+    --secondary-color: goldenrod;
+    --tertiary-color: rgb(247, 247, 247);
+}
+
+/* Apply styles */
+h1, h2, h3, h4 {
+    color: var(--primary-color);
+}
+
+.errorMsg {
+    color: red;
+}
+
+.successMessage {
+    color: green;
+}
+
+.successMsg {
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+}
+
+/* Modal Container */
+.modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 80%;
+    background-color: var(--tertiary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 9999;
+    border-radius: 10px;
+}
+
+.modal-container .success-modal-heading {
+    color: var(--primary-color);
+}
+
+.modal-container .success-modal-text {
+    color: black;
+    font-size: 20px;
+}
+
+.modal-container .modal-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.modal-container .modal-button-confirm {
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+}
+
+.modal-container .modal-button-confirm:hover {
+    background-color: var(--secondary-color);
+    color: black;
+    border-radius: 5px;
+    width: 85px;
+    height: 40px;
+}
+
+.modal-container .modal-button-cancel {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+}
+
+.modal-container .modal-button-cancel:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+    width: 85px;
+    height: 40px;
+}
+
+/* successcheck */
+.successcheck {
+    width: 150px;
+    height: 150px;
+}
+
+/* success-modal-container */
+.success-modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 70%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+/* Application */
+.application-container {
+    width: 100%;
+}
+
+.application-container .application-pages-containers {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Header */
+.application-header-container {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: var(--tertiary-color);
+}
+
+.sidebar .inner {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+}
+
+.sidebar .side-bar-link-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40%;
+    flex-direction: column;
+}
+
+.sidebar .side-bar-link-container .sidebar-link {
+    color: var(--primary-color);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.sidebar .side-bar-link-container .sidebar-link:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.sidebar .side-bar-text {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+/* Login Page */
+.login-page-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-page-container .login-page-left-container p {
+    font-size: 19px;
+    color: white;
+    text-align: center;
+}
+
+.login-page-container .login-page-left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: var(--primary-color);
+}
+
+.login-page-container .login-page-left-container .login-page-left-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.login-page-container .login-page-left-container .login-page-left-text-container h1 {
+    color: white;
+    text-align: center;
+}
+
+.login-page-container .login-page-left-container .login-page-left-link-conatiner {
+    padding: 5% 0;
+}
+
+.login-page-container .login-page-left-container .login-page-left-link-conatiner .btn {
+    background-color: var(--primary-color);
+    border: white 1px solid;
+}
+
+.login-page-container .login-page-left-container .login-page-left-link-conatiner .btn:hover {
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+.login-page-container .login-page-right-container p {
+    font-size: 18px;
+}
+
+.login-page-container .login-page-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    background-color: white;
+    margin: auto;
+}
+
+.login-page-container .login-page-right-container .login-form-logo {
+    padding: 3% 0;
+}
+
+.login-page-container .login-page-right-container .login-form-logo .login-ekqi-logo {
+    width: 60%;
+}
+
+.login-page-container .login-page-right-container .login-form-signin {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.login-page-container .login-page-right-container .login-form-form-container {
+    padding: 3% 0;
+    width: 100%;
+}
+
+.login-page-container .login-page-right-container .login-form-form-container .login-form-group {
+    padding: 1% 0;
+}
+
+.login-page-container .login-page-right-container .login-form-form-container .login-form-label {
+    font-size: 18px;
+    padding: 2% 0;
+}
+
+.login-page-container .login-page-right-container .login-form-form-container .login-form-button-container {
+    padding: 2% 0;
+    margin: auto 0;
+}
+
+.login-page-container .login-page-right-container .login-form-form-container .login-form-button-container p {
+    font-size: 12px;
+    padding: 2% 0;
+}
+
+.login-page-container .login-page-right-container .login-form-form-container Button {
+    background-color: var(--primary-color);
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: none;
+}
+
+.login-page-container .login-page-right-container .login-form-form-container Button:hover {
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+/* Register Page */
+.register-page-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.register-page-container .register-page-left-container p {
+    font-size: 19px;
+    color: white;
+    text-align: center;
+}
+
+.register-page-container .register-page-left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: var(--primary-color);
+}
+
+.register-page-container .register-page-left-container .register-page-left-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.register-page-container .register-page-left-container .register-page-left-text-container h1 {
+    color: white;
+    text-align: center;
+}
+
+.register-page-container .register-page-left-container .register-page-left-link-conatiner {
+    padding: 5% 0;
+}
+
+.register-page-container .register-page-left-container .register-page-left-link-conatiner .btn {
+    background-color: var(--primary-color);
+    border: white 1px solid;
+}
+
+.register-page-container .register-page-left-container .register-page-left-link-conatiner .btn:hover {
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+.register-page-container .register-page-right-container p {
+    font-size: 18px;
+}
+
+.register-page-container .register-page-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    background-color: white;
+    margin: auto;
+}
+
+.register-page-container .register-page-right-container .register-form-logo {
+    padding: 3% 0;
+}
+
+.register-page-container .register-page-right-container .register-form-logo .register-ekqi-logo {
+    width: 60%;
+}
+
+.register-page-container .register-page-right-container .register-form-signin {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+}
+
+.register-page-container .register-page-right-container .register-form-form-container {
+    padding: 3% 0;
+    width: 100%;
+}
+
+.register-page-container .register-page-right-container .register-form-form-container .register-form-group {
+    padding: 1% 0;
+}
+
+.register-page-container .register-page-right-container .register-form-form-container .register-form-label {
+    font-size: 18px;
+    padding: 1% 0;
+}
+
+.register-page-container .register-page-right-container .register-form-form-container .register-form-button-container {
+    padding: 5% 0;
+    margin: auto 0;
+}
+
+.register-page-container .register-page-right-container .register-form-form-container .register-form-button-container p {
+    font-size: 12px;
+    padding: 3% 0;
+}
+
+.register-page-container .register-page-right-container .register-form-form-container Button {
+    background-color: var(--primary-color);
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: none;
+}
+
+.register-page-container .register-page-right-container .register-form-form-container Button:hover {
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+/* Account */
+.account-form-container {
+    width: 80%;
+}
+
+.account-account-form-container {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+.account-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 1%;
+    align-items: center;
+    margin: auto 0;
+    width: 65%;
+    height: 80%;
+}
+
+.account-container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    padding: 2% 0;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.account-button-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.account-button-container .account-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+}
+
+.account-button-container .account-btn:hover {
+    background-color: var(--tertiary-color);
+    color: black;
+    border: none;
+}
+
+.account-button-container .active.account-btn {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+}
+
+/* Withdraw */
+.account-form-withdraw-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.account-form-container Button {
+    background-color: #262261;
+    border: none;
+    margin: 10px 0;
+}
+
+/* Statement */
+.summary-form {
+    width: 100%;
+    height: 50vh;
+    padding: 2%;
+    overflow: scroll;
+}
+
+.summary-form Button {
+    background-color: #262261;
+    border: none;
+    margin: 30px 0;
+}
+
+.report-table {
+    overflow: scroll;
+}
+
+/* Add account form */
+.edit-account-form {
+    width: 90%;
+}

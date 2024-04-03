@@ -5,7 +5,7 @@ import store from './store/store';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-datepicker/dist/react-datepicker.css';
   
-import './css/main.scss';
+import './css/main.css';
 
 
 

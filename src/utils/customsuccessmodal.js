@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/main.scss';
+import '../css/main.css';
 
 import EKQiLogo from '../assets/EKQiLogo.svg'; 
 import SuccessCheck from '../assets/checkSign.svg'

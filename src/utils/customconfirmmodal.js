@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/main.scss';
+import '../css/main.css';
 
 const Customconfirmmodal = ({ heading, message, onConfirm, onCancel }) => {
 

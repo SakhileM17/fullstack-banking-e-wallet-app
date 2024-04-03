@@ -4,9 +4,9 @@ This React app simulates a full stack bank and allows users to perform basic tra
 
 # Techstack 
 
-Langauges : JavaScript, HTML, Bootstrap,CSS
-Frameworks : ReactJS, NodeJs
-Database : Postgress SQL
+## Langauges : JavaScript, HTML, Bootstrap,CSS
+## Frameworks : ReactJS, NodeJs
+## Database : Postgress SQL
 
 # Available Scripts
 

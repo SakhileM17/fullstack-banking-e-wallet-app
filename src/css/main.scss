@@ -1,0 +1,577 @@
+$primary-color : #262261;
+$secondary-color : goldenrod;
+$tertiary-color : rgb(247, 247, 247);
+
+h1, h2, h3,h4 {
+    color : $primary-color
+}
+
+.errorMsg {
+    color: red;
+}
+
+.successMessage {
+    color: green;
+}
+
+.successMsg {
+    color : $secondary-color;
+    letter-spacing: 1px;
+}
+
+/* Modal Container */
+
+.modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 80%;
+    background-color: $tertiary-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 9999;
+    border-radius: 10px;
+
+    .success-modal-heading {
+        color:$primary-color;
+        
+    }
+
+    .success-modal-text {
+        color: black;
+        font-size: 20px;
+    }
+
+    .modal-button-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 60%;
+        
+
+        .modal-button-confirm {
+            background-color: $secondary-color;
+            color: white;
+            border-radius: 5px;
+            width: 80px;
+            height: 40px;
+        }
+
+        .modal-button-confirm:hover {
+            background-color: $secondary-color;
+            color: black;
+            border-radius: 5px;
+            width: 85px;
+            height: 40px;
+        }
+
+        .modal-button-cancel {
+            background-color: $primary-color;
+            color: white;
+            border-radius: 5px;
+            width: 80px;
+            height: 40px;
+        }
+
+        .modal-button-cancel:hover {
+            background-color: $primary-color;
+            color: white;
+            border-radius: 5px;
+            width: 85px;
+            height: 40px;
+        }
+    }
+}
+
+.successcheck {
+
+    width: 150px;
+    height: 150px;
+}
+
+
+/**/
+
+.success-modal-container {
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 70%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+
+/*------------------------------------------
+            Application 
+---------------------------------------------*/
+
+.application-container {
+    width: 100%;
+
+    .application-pages-containers {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    
+}
+
+/*---------------------------------------------
+                Header
+----------------------------------------------*/
+
+.application-header-container {
+    display: flex;
+}
+
+/* Menu - side bar*/
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: $tertiary-color; 
+
+    .inner{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 90%;
+        width: 90%;
+        margin: auto;
+    }
+
+    .side-bar-link-container{
+
+        display: flex;
+        justify-content: space-evenly;
+        height: 40%;
+        flex-direction: column;
+
+        .side-bar-link-icon-container {
+            display: flex;
+            text-align: center;
+            padding: 5% 0;
+            justify-content: space-evenly;
+
+            .sidebar-link{
+                color: $primary-color;
+                font-weight: 500;
+                text-decoration: none;
+            }
+
+            .sidebar-link:hover {
+                background-color: $primary-color;
+                color: $secondary-color;
+                font-weight: 800;
+                text-decoration: none;
+            }
+        }
+
+        
+        
+    }
+    
+    .side-bar-text{
+
+        text-align: center;
+        color: $primary-color;
+            
+    }
+  }
+  
+/*----------------------------------------------
+            Login Page 
+-----------------------------------------------*/
+
+.login-page-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+/* Left side of the login Page*/
+
+.login-page-left-container {
+
+    p{
+        font-size: 19px;
+        color: white;
+        text-align: center;
+    }
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: $primary-color;
+
+    .login-page-left-text-container {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin: 0 auto;
+    
+
+        h1{
+            color: white;
+            text-align: center;
+        }
+    }
+
+    .login-page-left-link-conatiner{
+        padding: 5% 0;
+
+        .btn {
+            background-color: $primary-color;
+            border: white 1px solid;
+            
+        }
+
+        .btn:hover {
+            background-color: $secondary-color;
+            border: none;
+        }
+    }
+
+}
+
+
+
+/* Right side of login page with login form*/
+
+.login-page-right-container {
+
+    p{
+        font-size: 18px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    background-color: white;
+    margin: auto;
+
+    .login-form-logo {
+        padding: 3% 0;
+
+        .login-ekqi-logo {
+            width: 60%;
+        }
+    }
+
+    .login-form-signin {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .login-form-form-container {
+        padding: 3% 0;
+        width: 100%;
+
+        .login-form-group {
+            padding: 1% 0;
+        }
+
+        .login-form-label {
+            font-size: 18px;
+            padding: 2% 0;
+        }
+
+        .login-form-button-container {
+            padding: 2% 0;
+            margin: auto 0;
+
+            p {
+                font-size: 12px;
+                padding: 2% 0;
+            }
+        }
+
+        Button {
+            background-color: $primary-color;
+            width: 100px;
+            height: 50px;
+            color: white;
+            border: none;
+        }
+
+        Button:hover {
+            background-color: $secondary-color;
+            border: none;
+        }
+    }
+
+}
+
+/*-----------------End of Login Page --------------------*/
+
+/*----------------------------------------------
+            Register Page 
+-----------------------------------------------*/
+
+.register-page-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+/* Registration page Left side */
+
+.register-page-left-container {
+
+    p{
+        font-size: 19px;
+        color: white;
+        text-align: center;
+    }
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background-color: $primary-color;
+
+    .register-page-left-text-container {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin: 0 auto;
+        
+
+        h1{
+            color: white;
+            text-align: center;
+        }
+    }
+
+    .register-page-left-link-conatiner{
+        padding: 5% 0;
+
+        .btn {
+            background-color: $primary-color;
+            border: white 1px solid;
+            
+        }
+
+        .btn:hover {
+            background-color: $secondary-color;
+            border: none;
+        }
+    }
+
+}
+
+/* Regsistration right side */
+
+.register-page-right-container {
+
+    p{
+        font-size: 18px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    background-color: white;
+    margin: auto;
+
+    .register-form-logo {
+        padding: 3% 0;
+
+        .register-ekqi-logo {
+            width: 60%;
+        }
+    }
+
+    .register-form-signin {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin: auto;
+        
+    }
+
+    .register-form-form-container {
+        padding: 3% 0;
+        width: 100%;
+
+        .register-form-group {
+            padding: 1% 0;
+        }
+
+        .register-form-label {
+            font-size: 18px;
+            padding: 1% 0;
+        }
+
+        .register-form-button-container {
+            
+            padding: 5% 0;
+            margin: auto 0;
+
+            p {
+                font-size: 12px;
+                padding: 3% 0;
+            }
+        }
+
+        Button {
+            background-color: $primary-color;
+            width: 100px;
+            height: 50px;
+            color: white;
+            border: none;
+        }
+
+        Button:hover {
+            background-color: $secondary-color;
+            border: none;
+        }
+    }
+
+}
+
+/*--------------------------------------------
+
+--------------------------------------------*/
+
+.account-form-container {
+    
+    width: 80%;
+}
+
+.account-account-form-container {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    
+}
+
+.account-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 1%;
+    align-items: center;
+    margin: auto 0;
+    width: 65%;
+    height: 80%;
+
+}
+
+/* Account header*/
+
+.account-container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 90%;
+    padding: 2% 0;
+    border-bottom: 1px solid $primary-color;
+}
+
+.account-button-container {
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+
+    .account-btn{
+        background-color: $primary-color;
+        color: white;
+        border: none;
+    }
+
+    .account-btn:hover{
+        background-color: $tertiary-color;
+        color: black;
+        border: none;
+    }
+
+    .active.account-btn{
+        background-color: $secondary-color;
+        color: white;
+        border: none;
+    }
+}
+
+/* withdraw*/
+
+.account-form-withdraw-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.account-form-container{
+    Button {
+        background-color: #262261;
+        border: none;
+        margin: 10px 0;
+    }
+}
+
+/* Sattement */
+
+.summary-form {
+
+    width: 100%;
+    height: 50vh;
+    padding: 2%;
+    overflow: scroll;
+
+
+    Button{
+        background-color: #262261;
+        border: none;
+        margin: 30px 0;
+    }
+}
+
+.report-table {
+    overflow: scroll;
+}
+
+
+/*-------------------------------------
+                Add account form    
+---------------------------------*/
+.edit-account-form  {
+    width: 90%;
+}
+
+
+

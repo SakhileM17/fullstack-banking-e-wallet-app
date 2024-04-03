@@ -1,6 +1,6 @@
-# Full Stack Banking App
+# Full Stack Banking App Simulation
 
-This React app simulates a full stack bank and allows users to perform basic transactions such as : 
+This React app simulates a full stack bank application and users can perform the following basic transactions : 
 
 - Withdrawals.
 - Deposits.

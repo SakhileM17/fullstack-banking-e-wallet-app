@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/SakhileM17/fullstack-banking-e-wallet-app/static/css/main.7871850b.css",
+    "main.js": "/SakhileM17/fullstack-banking-e-wallet-app/static/js/main.7038db4a.js",
+    "static/media/EKQiLogo.svg": "/SakhileM17/fullstack-banking-e-wallet-app/static/media/EKQiLogo.3bbd0a938f32cdb053bcba7b44a01010.svg",
+    "index.html": "/SakhileM17/fullstack-banking-e-wallet-app/index.html",
+    "static/media/checkSign.svg": "/SakhileM17/fullstack-banking-e-wallet-app/static/media/checkSign.6a195c1e2556ca4d67647192023b398a.svg",
+    "static/media/profile.svg": "/SakhileM17/fullstack-banking-e-wallet-app/static/media/profile.11b5aa124c0609ce19b7b91648456812.svg",
+    "static/media/logout.svg": "/SakhileM17/fullstack-banking-e-wallet-app/static/media/logout.37a7ecd2078198d122443760aacb8222.svg",
+    "main.7871850b.css.map": "/SakhileM17/fullstack-banking-e-wallet-app/static/css/main.7871850b.css.map",
+    "main.7038db4a.js.map": "/SakhileM17/fullstack-banking-e-wallet-app/static/js/main.7038db4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7871850b.css",
+    "static/js/main.7038db4a.js"
+  ]
+}

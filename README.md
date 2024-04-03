@@ -4,9 +4,15 @@ This React app simulates a full stack bank and allows users to perform basic tra
 
 # Techstack 
 
-## Langauges : JavaScript, HTML, Bootstrap,CSS
-## Frameworks : ReactJS, NodeJs
+### `Langauges : JavaScript, HTML, Bootstrap,CSS`
+### `Frameworks : ReactJS, NodeJs`
 ### `Database : Postgress SQL`
+
+# Authicentaicaton and Authorization
+
+### `JWT Authentication, When a user logs in, the server generates a JWT token containing relevant user information (e.g., user ID, roles). This token is sent back to the client (React app) upon successful login. Subsequent requests to secure API routes include this token in the request headers.`
+
+### `Redux for State Management, utilized Redux as a state container for managing global state in your React application.`
 
 # Available Scripts
 

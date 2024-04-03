@@ -2,13 +2,13 @@
 
 This React app simulates a full stack bank and allows users to perform basic transactions like making withdrawals and deposits. Users need to create an account for the protal in order to sign in, and for first time users musr add their bank account in order to transact.
 
-#Techstack 
+# Techstack 
 
 Langauges : JavaScript, HTML, Bootstrap,CSS
 Frameworks : ReactJS, NodeJs
 Database : Postgress SQL
 
-## Available Scripts
+# Available Scripts
 
 In the project directory, you can run:
 

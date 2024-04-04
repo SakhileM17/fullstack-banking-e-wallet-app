@@ -2,6 +2,8 @@
 
 This React app simulates a full stack bank application and users can perform the following basic transactions : 
 
+<img src="https://github.com/SakhileM17/fullstack-banking-e-wallet-app/blob/master/src/assets/app-snapshot/login.jpg?raw=true">
+
 - Withdrawals.
 - Deposits.
 - Generating Statements.

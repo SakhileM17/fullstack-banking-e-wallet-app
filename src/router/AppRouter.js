@@ -31,9 +31,9 @@ const AppRouter = ({ auth }) => {
             
             <Route path="/" element={isAuthenticated ? <Account /> : <Login />}/>
             
-            <Route path="/profile" element={<Profile/>} />
+            <Route path="/profile" element={!isAuthenticated ?  <Login/> : <Profile/>} />
             <Route path="/register" element={<Register />}/>
-            <Route path="/account" element={<Account />} />
+            <Route path="/account" element={!isAuthenticated ?  <Login/> : <Account/>} />
             <Route path="/logout" element={<Logout/>} />
             
           </Routes>

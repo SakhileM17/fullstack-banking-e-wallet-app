@@ -1,5 +1,5 @@
 /* */
-export const BASE_API_URL = 'https://sakhilem17.github.io/fullstack-banking-e-wallet-app/';
+export const BASE_API_URL = 'http://localhost:5000';
 
 /* */
 export const SIGN_IN = 'SIGN_IN'

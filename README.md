@@ -1,18 +1,29 @@
-# Getting Started with Create React App
+# Full Stack Banking App Simulation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React app simulates a full stack bank application and users can perform the following basic transactions : 
 
-## Available Scripts
+- Withdrawals.
+- Deposits.
+- Generating Statements.
+- Signing Up and Logging 
+
+# Techstack 
+
+- Langauges : JavaScript, HTML, Bootstrap,CSS
+- Frameworks : ReactJS, NodeJs
+- Database : Postgress SQL.
+- Authientication and Authorization : JWT Authentcication and REDUX for statemanagment
+
+# Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+####`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload when you make changes.
 
 ### `npm test`
 

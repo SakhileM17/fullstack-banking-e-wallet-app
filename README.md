@@ -2,7 +2,7 @@
 
 This React app simulates a full stack bank application and users can perform the following basic transactions : 
 
-<img src="https://github.com/SakhileM17/fullstack-banking-e-wallet-app/blob/master/src/assets/app-snapshot/login.jpg?raw=true">
+<img src="https://github.com/SakhileM17/fullstack-banking-e-wallet-app/blob/master/src/assets/app-snapshot/withdraw.jpg?raw=true">
 
 - Withdrawals.
 - Deposits.
@@ -15,6 +15,12 @@ This React app simulates a full stack bank application and users can perform the
 - Frameworks : ReactJS, NodeJs
 - Database : Postgress SQL.
 - Authientication and Authorization : JWT Authentcication and REDUX for statemanagment
+
+# Application Preview 
+
+<img src="https://github.com/SakhileM17/fullstack-banking-e-wallet-app/blob/master/src/assets/app-snapshot/login.jpg?raw=true">
+
+
 
 # Available Scripts
 
